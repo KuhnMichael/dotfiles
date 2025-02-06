@@ -1,0 +1,21 @@
+return {
+  --  {
+  --     "github/copilot.vim",
+  --     config = function()
+  --        vim.cmd('imap <silent><script><expr> <C-CR> copilot#Accept("\\<CR>")')
+  --        vim.g.copilot_no_tab_map = true
+  --     end,
+  --  },
+  --  {
+  --   "CopilotC-Nvim/CopilotChat.nvim",
+  --   dependencies = {
+  --     { "github/copilot.vim" }, -- or zbirenbaum/copilot.lua
+  --     { "nvim-lua/plenary.nvim", branch = "master" }, -- for curl, log and async functions
+  --   },
+  --   build = "make",
+  --   keys = {
+  --     { "<leader>cce", "<cmd>CopilotChatExplain<cr>", desc = "CopilotChat - Explain code" },
+  --     { "<leader>cct", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests" },
+  --   },
+  -- }
+}

@@ -6,7 +6,7 @@ return {
  
     configs.setup({
       ensure_installed = {
-        "lua", "vim", "vimdoc"
+        "lua", "vim", "vimdoc", "python"
       },
       sync_install = false,
       highlight = { enable = true },
